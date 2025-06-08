@@ -5,7 +5,7 @@
 ### srbija lokacija iz inventory.yml
 ### user na VMu: inventory.yml
 ### modul: -m ping
-### rucno unt ssh keyfile (iz direktorijuma gde za terraform)
+rucno unt ssh keyfile (iz direktorijuma gde za terraform)
 ```
 ansible srbija -i inventory.yml -u ubuntu -m ping --key-file ~/local/.ssh/id_ed25519
 ```
