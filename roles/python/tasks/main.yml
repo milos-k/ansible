@@ -1,0 +1,5 @@
+---
+- name: Creates dir
+  file:
+    path: ./basic-http-server
+    state: directory

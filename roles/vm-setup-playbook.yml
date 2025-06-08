@@ -1,0 +1,6 @@
+---
+- name: Example
+  hosts: all
+  remote_user: ubuntu
+  roles:
+    - python
